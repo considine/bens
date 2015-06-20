@@ -47,16 +47,20 @@ body {
 
 .menu {
 	background-color: yellow;
-	margin-left: auto;
-	height: 30px;
+	margin: auto;
+	height: 50px;
 	width: 710px;
 	display: block;
+	position: relative;
+	top: 20px;
 
 }
 
 .item {
 	display: inline-block;
 	width: 170px;
+	height: 50px;
+	text-align: center;
 }
 
 .options {
@@ -65,10 +69,6 @@ body {
 	color: black;
 }
 
-.FAQ {
-	height: 30px;
-	background-color: white;
-}
 
 .cart {
 	margin: auto;
@@ -98,4 +98,17 @@ button {
 	width: 880px;
 	background-color: black;
 	margin: auto;
+}
+
+.iword {
+	font-size: 130%;
+	font-family: "Courier"; 
+}
+
+a {
+	text-decoration: none;
+}
+
+.item:hover {
+	background-color: white;
 }
